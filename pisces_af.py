@@ -8,7 +8,7 @@ from ConfigParser import ConfigParser
 import socket
 
 #import gl
-project_path = "E:\\pisces_af.sikuli"
+project_path = "E:\\pisces_af"
 addImportPath(project_path)
 addImagePath(project_path+"\\img")
 
