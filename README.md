@@ -27,3 +27,18 @@ project_path = "E:\\pisces_af"
 ```python
 project_path = "E:\\pisces_af"
 ```
+
+**How to Run**
+modify the `config.ini` in config folder 
+Add two sessions:
+```
+[Your computer's name]  ; etc [My-PC]
+ScreenCaptureMode = Fail
+WaitScanRate      = 1
+ObserveScanRate   = 1
+MoveMouseDelay    = 0.3
+
+[Your computer's name_Tasksuit] ;etc [My-PC_tasksuit]
+test = 1
+```
+run `runsikulix.bat`
