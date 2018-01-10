@@ -14,7 +14,7 @@ In Windows system, you need add some environment variables
 `JAVA_HOME` : Your JDK folder path
 `CLASSPATH` : `%SIKULIX_HOME%sikulixapi.jar`
 
-**Path configuration**
+**Path configuration**  
 `runsikulix.bat`:
 ```cmd
 "%JAVA_HOME%\bin\java.exe" %PARMS% -jar "%SIKULIX_HOME%%SJAR%.jar" -c -d 3 -f -r "E:\pisces_af\"
