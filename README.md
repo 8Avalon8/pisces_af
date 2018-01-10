@@ -28,7 +28,7 @@ project_path = "E:\\pisces_af"
 project_path = "E:\\pisces_af"
 ```
 
-**How to Run**
+**How to Run**  
 modify the `config.ini` in config folder 
 Add two sessions:
 ```
