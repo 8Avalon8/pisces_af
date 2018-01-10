@@ -1,6 +1,6 @@
 pisces_af
 ===
-Pisces_af is an UI automated test framework based on Sikulix and was used for Game UI testing. It's easy to use and can easy to use some continuous integration tools like Jenkins to manage several clients to run different autotest script.
+Pisces_af is an UI automated test framework based on Sikulix and was used for Game UI testing. It's easy to use and can easy to use some continuous integration tools like Jenkins to manage several clients to run different autotest script.  
 **It's from a game testing project and not completely been modified for common use yet, welcome to improve it together!**
 
 **Requirement**  
