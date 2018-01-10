@@ -10,10 +10,10 @@ Pisces_af is an UI automated test framework based on Sikulix and was used for Ga
 
 **Environment variables**  
 
-In Windows system, you need add some environment variables
-`SIKULIX_HOME`：Your sikulix folder e.g. `D:\SikuliX1.1.2\`
-`JAVA_HOME` : Your JDK folder path
-`CLASSPATH` : `%SIKULIX_HOME%sikulixapi.jar`
+In Windows system, you need add some environment variables  
+`SIKULIX_HOME`：Your sikulix folder e.g. `D:\SikuliX1.1.2\`  
+`JAVA_HOME` : Your JDK folder path  
+`CLASSPATH` : `%SIKULIX_HOME%sikulixapi.jar`  
 
 **Path configuration**  
 `runsikulix.bat`:
