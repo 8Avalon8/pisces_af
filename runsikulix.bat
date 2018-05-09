@@ -1,5 +1,7 @@
 @echo off
-"E:\pisces_af\findscreen.py"
+
+python findscreen.py
+
 SETLOCAL ENABLEEXTENSIONS
 set SJAR=sikulix
 if not defined SIKULIX_HOME goto NOHOME
@@ -82,7 +84,7 @@ set SIKULI_COMMAND=%*
 "%JAVA_HOME%\bin\java.exe" -version
 echo +++ trying to run SikuliX
 echo +++ using: %PARMS% -jar %SIKULIX_HOME%%SJAR%.jar %SIKULI_COMMAND%
-"%JAVA_HOME%\bin\java.exe" %PARMS% -jar "%SIKULIX_HOME%%SJAR%.jar" -c -d 3 -f -r "E:\pisces_af\"
+"%JAVA_HOME%\bin\java.exe" %PARMS% -jar "%SIKULIX_HOME%%SJAR%.jar" -c -d 3 -f -r "%cd"
 GOTO FINALLY
 
 :STOPIT
