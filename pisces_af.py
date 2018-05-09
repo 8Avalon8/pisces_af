@@ -7,8 +7,7 @@ import sys
 from ConfigParser import ConfigParser
 import socket
 
-#import gl
-project_path = "E:\\pisces_af"
+project_path = os.getcwd()
 addImportPath(project_path)
 addImagePath(project_path+"\\img")
 

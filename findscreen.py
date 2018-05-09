@@ -27,7 +27,7 @@ elif label == 'Pisces':
     position = win32gui.ClientToScreen(hld,(0,0))  #将client的(0,0)坐标转为屏幕坐标
 
 
-fp = open("E:\\pisces_af\\ScriptConfig.ini",'w')
+fp = open(os.getcwd()+"\\ScriptConfig.ini",'w')
 fp.write(str(position))
 fp.close()
 sys.exit(0)
