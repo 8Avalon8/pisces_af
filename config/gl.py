@@ -2,8 +2,8 @@
 from sikuli import *
 from util import GetScreenPosition,GetRealRegion,GetRegionFromGrid
 import os
-project_path = "E:\\pisces_af"
-log_path = project_path+"\\logs"
+project_path = os.getcwd()
+log_path = project_path + "\\log"
 TaskDir = None
 SCOPE = {}
 OBSERVER_FAIL = False
