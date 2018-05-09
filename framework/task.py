@@ -253,8 +253,9 @@ class TaskSuit(object):
         logging.info(u"Fail Tasks:")
         logging.info(self.fail_task)
         logging.info(u"Tasksuits finished")
-        taskfolder = gl.TaskDir.split("\\")[2]
-        text = u"Log address:" + "\\\\"+localIP+"\\Log\\"+taskfolder
+        arr = gl.TaskDir.split("\\")
+        taskfolder = arr[len(arr)-1]
+        textAddr = u"Log地址:" + "\\\\"+localIP+"\\log\\"+taskfolder
         logging.info(text)
         logging.info("================================================================")
         if len(self.fail_task)== 0 : return True
